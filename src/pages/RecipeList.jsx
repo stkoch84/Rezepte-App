@@ -1,10 +1,12 @@
 import { useState, useMemo } from 'react'
-import recipes from '../data/recipes.json'
+import { Link } from 'react-router-dom'
+import { useRecipes } from '../context/RecipesContext'
 import RecipeCard from '../components/RecipeCard'
 import SearchFilter from '../components/SearchFilter'
-import { ChefHat } from 'lucide-react'
+import { ChefHat, Plus } from 'lucide-react'
 
 export default function RecipeList() {
+  const { recipes } = useRecipes()
   const [search, setSearch] = useState('')
   const [category, setCategory] = useState('Alle')
   const [showFavorites, setShowFavorites] = useState(false)
@@ -19,16 +21,25 @@ export default function RecipeList() {
       const matchesFavorite = !showFavorites || r.favorite
       return matchesSearch && matchesCategory && matchesFavorite
     })
-  }, [search, category, showFavorites])
+  }, [recipes, search, category, showFavorites])
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
-      <header className="mb-8">
-        <div className="flex items-center gap-3 mb-2">
-          <ChefHat size={32} className="text-amber-500" />
-          <h1 className="text-3xl font-bold text-stone-800">Meine Rezepte</h1>
+      <header className="flex items-start justify-between mb-8">
+        <div>
+          <div className="flex items-center gap-3 mb-2">
+            <ChefHat size={32} className="text-amber-500" />
+            <h1 className="text-3xl font-bold text-stone-800">Meine Rezepte</h1>
+          </div>
+          <p className="text-stone-500">{recipes.length} Rezepte gesammelt</p>
         </div>
-        <p className="text-stone-500">{recipes.length} Rezepte gesammelt</p>
+        <Link
+          to="/neu"
+          className="flex items-center gap-2 bg-amber-500 hover:bg-amber-600 text-white px-4 py-2.5 rounded-xl text-sm font-medium transition-colors shadow-sm"
+        >
+          <Plus size={18} />
+          Neues Rezept
+        </Link>
       </header>
 
       <SearchFilter
