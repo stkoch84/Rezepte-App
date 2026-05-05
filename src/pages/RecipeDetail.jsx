@@ -1,9 +1,10 @@
 import { useParams, Link } from 'react-router-dom'
-import recipes from '../data/recipes.json'
+import { useRecipes } from '../context/RecipesContext'
 import { Clock, Users, Star, ArrowLeft, Heart, ChefHat } from 'lucide-react'
 
 export default function RecipeDetail() {
   const { id } = useParams()
+  const { recipes } = useRecipes()
   const recipe = recipes.find(r => r.id === id)
 
   if (!recipe) {
