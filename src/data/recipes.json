@@ -1,0 +1,166 @@
+[
+  {
+    "id": "spaghetti-carbonara",
+    "title": "Spaghetti Carbonara",
+    "category": "Pasta",
+    "tags": ["italienisch", "schnell", "klassiker"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 20,
+    "rating": 5,
+    "favorite": true,
+    "image": "https://images.unsplash.com/photo-1612874742237-6526221588e3?w=600&q=80",
+    "description": "Ein echter römischer Klassiker – cremig, würzig und in under 30 Minuten auf dem Tisch.",
+    "ingredients": [
+      { "amount": "400", "unit": "g", "name": "Spaghetti" },
+      { "amount": "200", "unit": "g", "name": "Guanciale oder Pancetta" },
+      { "amount": "4", "unit": "Stück", "name": "Eigelb" },
+      { "amount": "1", "unit": "Stück", "name": "Ei (ganz)" },
+      { "amount": "80", "unit": "g", "name": "Pecorino Romano, gerieben" },
+      { "amount": "40", "unit": "g", "name": "Parmesan, gerieben" },
+      { "amount": "1", "unit": "TL", "name": "schwarzer Pfeffer, frisch gemahlen" },
+      { "amount": "", "unit": "", "name": "Salz" }
+    ],
+    "steps": [
+      "Guanciale in kleine Würfel schneiden und in einer Pfanne ohne Öl bei mittlerer Hitze knusprig braten. Beiseite stellen.",
+      "Spaghetti in reichlich gesalzenem Wasser nach Packungsanweisung al dente kochen. Etwa 200 ml Kochwasser aufheben.",
+      "Eigelbe, ganzes Ei, Pecorino und Parmesan in einer Schüssel verquirlen. Mit Pfeffer würzen.",
+      "Pasta abgießen und sofort mit dem Guanciale in der Pfanne vermischen (Hitze aus!).",
+      "Ei-Käse-Mischung dazugeben und schnell rühren. Nach und nach Kochwasser zugeben, bis eine cremige Sauce entsteht.",
+      "Sofort servieren, mit extra Pecorino und Pfeffer bestreuen."
+    ],
+    "notes": "Wichtig: Die Pfanne muss vom Herd sein, wenn die Eimischung dazukommt – sonst wird's Rührei!"
+  },
+  {
+    "id": "buttermilch-pancakes",
+    "title": "Buttermilch-Pancakes",
+    "category": "Frühstück",
+    "tags": ["amerikanisch", "süß", "wochenende"],
+    "servings": 2,
+    "prepTime": 10,
+    "cookTime": 15,
+    "rating": 5,
+    "favorite": true,
+    "image": "https://images.unsplash.com/photo-1567620905732-2d1ec7ab7445?w=600&q=80",
+    "description": "Fluffige Pancakes mit leicht säuerlichem Geschmack – perfekt für einen entspannten Sonntagmorgen.",
+    "ingredients": [
+      { "amount": "200", "unit": "g", "name": "Mehl" },
+      { "amount": "2", "unit": "TL", "name": "Backpulver" },
+      { "amount": "1", "unit": "TL", "name": "Natron" },
+      { "amount": "2", "unit": "EL", "name": "Zucker" },
+      { "amount": "1", "unit": "Prise", "name": "Salz" },
+      { "amount": "250", "unit": "ml", "name": "Buttermilch" },
+      { "amount": "2", "unit": "Stück", "name": "Eier" },
+      { "amount": "2", "unit": "EL", "name": "Butter, geschmolzen" }
+    ],
+    "steps": [
+      "Alle trockenen Zutaten (Mehl, Backpulver, Natron, Zucker, Salz) in einer Schüssel mischen.",
+      "In einer zweiten Schüssel Buttermilch, Eier und geschmolzene Butter verquirlen.",
+      "Feuchte Zutaten zu den trockenen geben und nur kurz rühren – Klümpchen sind okay!",
+      "Teig 5 Minuten ruhen lassen.",
+      "Pfanne mit etwas Butter bei mittlerer Hitze erhitzen. Teig portionsweise hineinschöpfen.",
+      "Warten bis Blasen aufsteigen (ca. 2 Min.), dann wenden und weitere 1-2 Min. goldbraun braten.",
+      "Mit Ahornsirup, Beeren oder Banane servieren."
+    ],
+    "notes": "Den Teig nicht zu stark rühren – das macht Pancakes zäh. Lieber Klümpchen lassen!"
+  },
+  {
+    "id": "tomatensuppe",
+    "title": "Cremige Tomatensuppe",
+    "category": "Suppen",
+    "tags": ["vegetarisch", "einfach", "comfort food"],
+    "servings": 4,
+    "prepTime": 10,
+    "cookTime": 25,
+    "rating": 4,
+    "favorite": false,
+    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=600&q=80",
+    "description": "Eine samtige, aromatische Tomatensuppe – einfach zuzubereiten und unglaublich wärmend.",
+    "ingredients": [
+      { "amount": "2", "unit": "Dosen", "name": "gehackte Tomaten (je 400g)" },
+      { "amount": "1", "unit": "Stück", "name": "Zwiebel" },
+      { "amount": "3", "unit": "Zehen", "name": "Knoblauch" },
+      { "amount": "500", "unit": "ml", "name": "Gemüsebrühe" },
+      { "amount": "100", "unit": "ml", "name": "Sahne" },
+      { "amount": "2", "unit": "EL", "name": "Olivenöl" },
+      { "amount": "1", "unit": "TL", "name": "Zucker" },
+      { "amount": "1", "unit": "TL", "name": "getrockneter Basilikum" },
+      { "amount": "", "unit": "", "name": "Salz und Pfeffer" }
+    ],
+    "steps": [
+      "Zwiebel fein hacken, Knoblauch pressen. Beides in Olivenöl bei mittlerer Hitze 5 Minuten anschwitzen.",
+      "Tomaten und Gemüsebrühe dazugeben, Zucker und Basilikum einrühren.",
+      "Bei niedriger Hitze 20 Minuten köcheln lassen.",
+      "Suppe mit dem Stabmixer glatt pürieren.",
+      "Sahne einrühren, mit Salz und Pfeffer abschmecken.",
+      "Mit einem Spritzer Sahne und Basilikum garnieren."
+    ],
+    "notes": "Schmeckt noch besser am nächsten Tag. Einfrieren ist auch gut möglich."
+  },
+  {
+    "id": "avocado-toast",
+    "title": "Avocado-Toast mit Ei",
+    "category": "Frühstück",
+    "tags": ["vegetarisch", "schnell", "gesund"],
+    "servings": 1,
+    "prepTime": 5,
+    "cookTime": 5,
+    "rating": 4,
+    "favorite": false,
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?w=600&q=80",
+    "description": "Der perfekte Start in den Tag: cremige Avocado auf knusprigem Toast, gekrönt von einem Ei.",
+    "ingredients": [
+      { "amount": "2", "unit": "Scheiben", "name": "Sauerteigbrot" },
+      { "amount": "1", "unit": "Stück", "name": "reife Avocado" },
+      { "amount": "1", "unit": "Stück", "name": "Ei" },
+      { "amount": "1", "unit": "Stück", "name": "Zitrone" },
+      { "amount": "1", "unit": "Prise", "name": "Chiliflocken" },
+      { "amount": "", "unit": "", "name": "Salz und Pfeffer" },
+      { "amount": "", "unit": "", "name": "frischer Koriander (optional)" }
+    ],
+    "steps": [
+      "Brot rösten.",
+      "Avocado halbieren, Kern entfernen, Fruchtfleisch in eine Schüssel geben.",
+      "Mit Zitronensaft, Salz und Pfeffer zerdrücken – nicht zu glatt, etwas Textur lassen.",
+      "Ei nach Wunsch zubereiten (Spiegelei, pochiert oder weich gekocht).",
+      "Avocado auf den Toast streichen, Ei darauflegen.",
+      "Mit Chiliflocken und Koriander garnieren."
+    ],
+    "notes": "Ein pochiertes Ei macht das Gericht besonders elegant."
+  },
+  {
+    "id": "schokoladenkuchen",
+    "title": "Saftiger Schokoladenkuchen",
+    "category": "Backen",
+    "tags": ["süß", "klassiker", "kuchen"],
+    "servings": 12,
+    "prepTime": 20,
+    "cookTime": 35,
+    "rating": 5,
+    "favorite": true,
+    "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=600&q=80",
+    "description": "Ein unwiderstehlich saftiger Schokoladenkuchen – der absolute Liebling bei jeder Feier.",
+    "ingredients": [
+      { "amount": "200", "unit": "g", "name": "dunkle Schokolade (70%)" },
+      { "amount": "200", "unit": "g", "name": "Butter" },
+      { "amount": "200", "unit": "g", "name": "Zucker" },
+      { "amount": "4", "unit": "Stück", "name": "Eier" },
+      { "amount": "150", "unit": "g", "name": "Mehl" },
+      { "amount": "2", "unit": "TL", "name": "Backpulver" },
+      { "amount": "3", "unit": "EL", "name": "Kakaopulver" },
+      { "amount": "1", "unit": "Prise", "name": "Salz" },
+      { "amount": "100", "unit": "ml", "name": "heißer Kaffee" }
+    ],
+    "steps": [
+      "Backofen auf 175°C Ober-/Unterhitze vorheizen. Springform (26cm) einfetten.",
+      "Schokolade und Butter im Wasserbad oder in der Mikrowelle schmelzen. Abkühlen lassen.",
+      "Eier und Zucker cremig aufschlagen (ca. 5 Minuten).",
+      "Schokoladenmasse vorsichtig unterrühren.",
+      "Mehl, Backpulver, Kakao und Salz sieben und unterheben.",
+      "Heißen Kaffee einrühren – der macht den Teig besonders saftig.",
+      "In die Form füllen und 30-35 Minuten backen. Stäbchenprobe machen.",
+      "10 Minuten in der Form, dann auf einem Gitter auskühlen lassen."
+    ],
+    "notes": "Der Kaffee hebt den Schokoladengeschmack, man schmeckt ihn selbst nicht. Keine Angst!"
+  }
+]
