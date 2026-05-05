@@ -4,7 +4,7 @@ import RecipeDetail from './pages/RecipeDetail'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Rezepte-App">
       <div className="min-h-screen bg-amber-50">
         <Routes>
           <Route path="/" element={<RecipeList />} />
